@@ -1,4 +1,5 @@
 import BestDeals from "../Components/BestDeals";
+import BestSellers from "../Components/BestSellers";
 import DiscountProducts from "../Components/DiscountProducts";
 import FeaturedProducts from "../Components/FeaturedProducts";
 import HeroSection from "../Components/HeroSection";
@@ -13,7 +14,8 @@ export default function Home() {
             <HeroSection/>
             <DiscountProducts />
             <FeaturedProducts />
-            <BestDeals/>
+            <BestDeals />
+            <BestSellers/>
         </>
     )
 }
