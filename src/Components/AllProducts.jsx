@@ -51,6 +51,27 @@ export default function AllProducts() {
       price: "$3,899.00",
       icon: "🛒",
     },
+    {
+      img: One,
+      title: "iPhone 14 Pro",
+      text: "128GB, Deep Purple",
+      price: "$999.00",
+      icon: "🛒",
+    },
+    {
+      img: Two,
+      title: "MacBook Air M2",
+      text: "16GB RAM, 512GB SSD",
+      price: "$1,299.00",
+      icon: "🛒",
+    },
+    {
+      img: Three,
+      title: "Canon EOS R5",
+      text: "45MP, 8K Video",
+      price: "$3,899.00",
+      icon: "🛒",
+    },
   ]);
 
   return (

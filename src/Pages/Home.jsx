@@ -4,7 +4,10 @@ import BestSellers from "../Components/BestSellers";
 import BrandLogo from "../Components/BrandLogo";
 import DiscountProducts from "../Components/DiscountProducts";
 import FeaturedProducts from "../Components/FeaturedProducts";
+import FirstFooter from "../Components/FirstFooter";
+import Footer from "../Components/Footer";
 import HeroSection from "../Components/HeroSection";
+import LastFooter from "../Components/LastFooter";
 import MainNav from "../Components/MainNav";
 import Offers from "../Components/Offers";
 import RecentlyViewed from "../Components/RecentlyViewed";
@@ -23,7 +26,10 @@ export default function Home() {
             <Offers />
             <RecentlyViewed />
             <BrandLogo />
-            <AllProducts/>
+            <AllProducts />
+            <FirstFooter />
+            <Footer />
+            <LastFooter/>
         </>
     )
 }
