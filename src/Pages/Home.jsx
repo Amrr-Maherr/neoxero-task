@@ -5,6 +5,7 @@ import FeaturedProducts from "../Components/FeaturedProducts";
 import HeroSection from "../Components/HeroSection";
 import MainNav from "../Components/MainNav";
 import Offers from "../Components/Offers";
+import RecentlyViewed from "../Components/RecentlyViewed";
 import SubNav from "../Components/SubNav";
 
 export default function Home() {
@@ -17,7 +18,8 @@ export default function Home() {
             <FeaturedProducts />
             <BestDeals />
             <BestSellers />
-            <Offers/>
+            <Offers />
+            <RecentlyViewed/>
         </>
     )
 }
