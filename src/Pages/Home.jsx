@@ -1,3 +1,4 @@
+import AllProducts from "../Components/AllProducts";
 import BestDeals from "../Components/BestDeals";
 import BestSellers from "../Components/BestSellers";
 import BrandLogo from "../Components/BrandLogo";
@@ -21,7 +22,8 @@ export default function Home() {
             <BestSellers />
             <Offers />
             <RecentlyViewed />
-            <BrandLogo/>
+            <BrandLogo />
+            <AllProducts/>
         </>
     )
 }

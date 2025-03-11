@@ -6,7 +6,7 @@ import Five from "../Assets/spotify-1-logo-svgrepo-com.svg"
 export default function BestSellers() {
 
   return (
-    <section className="bg-white min-h-screen my-5 p-5">
+    <section className="bg-white my-5 p-5">
       <hr />
       <section className="flex justify-around gap-10 my-5 flex-wrap">
         <img src={Four} alt="Apple Logo" className="w-20 h-20" />
