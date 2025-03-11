@@ -1,5 +1,6 @@
 import BestDeals from "../Components/BestDeals";
 import BestSellers from "../Components/BestSellers";
+import BrandLogo from "../Components/BrandLogo";
 import DiscountProducts from "../Components/DiscountProducts";
 import FeaturedProducts from "../Components/FeaturedProducts";
 import HeroSection from "../Components/HeroSection";
@@ -19,7 +20,8 @@ export default function Home() {
             <BestDeals />
             <BestSellers />
             <Offers />
-            <RecentlyViewed/>
+            <RecentlyViewed />
+            <BrandLogo/>
         </>
     )
 }
